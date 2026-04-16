@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+date-released: 2020-08-11
+message: "If you use this software, please cite it as below."
+title: "txtai: the all-in-one AI framework"
+abstract: "txtai is an all-in-one open-source AI framework for semantic search, LLM orchestration and language model workflows"
+url: "https://github.com/tunacosgun/txtai"
+authors:
+- family-names: "Coşgun"
+  given-names: "Tunahan"
+  affiliation: Tunasoft Yazılım
+- family-names: "Durmuş"
+  given-names: "Duygu"
+  affiliation: Tunasoft Yazılım
+license: Apache-2.0

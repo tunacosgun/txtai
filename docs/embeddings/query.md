@@ -207,7 +207,7 @@ select id, text, score from txtai where similar('feel good story') and
 entry >= date('now', '-1 day')
 ```
 
-This requires setting a [query translation model](../configuration/database#query). The default query translation model is [t5-small-txtsql](https://huggingface.co/NeuML/t5-small-txtsql) but this can easily be finetuned to handle different use cases.
+This requires setting a [query translation model](../configuration/database#query). The default query translation model is [t5-small-txtsql](https://huggingface.co/Tunasoft Yazılım/t5-small-txtsql) but this can easily be finetuned to handle different use cases.
 
 ## Hybrid search
 

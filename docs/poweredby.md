@@ -2,13 +2,13 @@
 
 The following applications are powered by txtai. 
 
-![apps](https://raw.githubusercontent.com/neuml/txtai/master/apps.jpg)
+![apps](https://raw.githubusercontent.com/tunacosgun/txtai/master/apps.jpg)
 
 | Application  | Description  |
 |:------------ |:-------------|
-| [rag](https://github.com/neuml/rag) | Retrieval Augmented Generation (RAG) application |
-| [ncoder](https://github.com/neuml/ncoder) | Open-Source AI coding agent |
-| [paperai](https://github.com/neuml/paperai) | AI for medical and scientific papers |
-| [annotateai](https://github.com/neuml/annotateai) | Automatically annotate papers with LLMs |
+| [rag](https://github.com/tunacosgun/rag) | Retrieval Augmented Generation (RAG) application |
+| [ncoder](https://github.com/tunacosgun/ncoder) | Open-Source AI coding agent |
+| [paperai](https://github.com/tunacosgun/paperai) | AI for medical and scientific papers |
+| [annotateai](https://github.com/tunacosgun/annotateai) | Automatically annotate papers with LLMs |
 
-In addition to this list, there are also many other [open-source projects](https://github.com/neuml/txtai/network/dependents), [published research](https://scholar.google.com/scholar?q=txtai&hl=en&as_ylo=2022) and closed proprietary/commercial projects that have built on txtai in production.
+In addition to this list, there are also many other [open-source projects](https://github.com/tunacosgun/txtai/network/dependents), [published research](https://scholar.google.com/scholar?q=txtai&hl=en&as_ylo=2022) and closed proprietary/commercial projects that have built on txtai in production.

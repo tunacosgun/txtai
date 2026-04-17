@@ -11,7 +11,7 @@ See the link below for a detailed example.
 
 | Notebook  | Description  |       |
 |:----------|:-------------|------:|
-| [Export and run other machine learning models](https://github.com/neuml/txtai/blob/master/examples/21_Export_and_run_other_machine_learning_models.ipynb) | Export and run models from scikit-learn, PyTorch and more | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/neuml/txtai/blob/master/examples/21_Export_and_run_other_machine_learning_models.ipynb) |
+| [Export and run other machine learning models](https://github.com/tunacosgun/txtai/blob/master/examples/21_Export_and_run_other_machine_learning_models.ipynb) | Export and run models from scikit-learn, PyTorch and more | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tunacosgun/txtai/blob/master/examples/21_Export_and_run_other_machine_learning_models.ipynb) |
 
 ## Methods 
 

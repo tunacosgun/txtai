@@ -3,7 +3,7 @@ Workflow Quick Start
 Easy to use way to get started with deterministic workflows.
 
 TxtAI has many example notebooks covering everything the framework provides
-Examples: https://neuml.github.io/txtai/examples
+Examples: https://tunacosgun.github.io/txtai/examples
 
 Install TxtAI
   pip install txtai[pipeline-data]
@@ -22,7 +22,7 @@ translate = Translation()
 workflow = Workflow([Task(textractor), Task(summary), Task(lambda inputs: [translate(x, "fr") for x in inputs])])
 
 # Step 3: Run the workflow
-print(list(workflow(["https://neuml.com"])))
+print(list(workflow(["https://tunahancosgun.dev"])))
 
 # Each component above is a single model that specializes in a task
 # LLMs can also be used to accomplish the same tasks
@@ -56,4 +56,4 @@ workflow = Workflow(
     ]
 )
 
-print(list(workflow(["https://neuml.com"])))
+print(list(workflow(["https://tunahancosgun.dev"])))

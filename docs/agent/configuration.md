@@ -13,14 +13,14 @@ wikipedia = {
     "name": "wikipedia",
     "description": "Searches a Wikipedia database",
     "provider": "huggingface-hub",
-    "container": "neuml/txtai-wikipedia"
+    "container": "tunacosgun/txtai-wikipedia"
 }
 
 arxiv = {
     "name": "arxiv",
     "description": "Searches a database of scientific papers",
     "provider": "huggingface-hub",
-    "container": "neuml/txtai-arxiv"
+    "container": "tunacosgun/txtai-arxiv"
 }
 
 def today() -> str:

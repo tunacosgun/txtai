@@ -1,7 +1,7 @@
 #
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/neuml/txtai/master/logo.png"/>
+    <img src="https://raw.githubusercontent.com/tunacosgun/txtai/master/logo.png"/>
 </p>
 
 <p align="center">
@@ -9,23 +9,23 @@
 </p>
 
 <p align="center">
-    <a href="https://github.com/neuml/txtai/releases">
-        <img src="https://img.shields.io/github/release/neuml/txtai.svg?style=flat&color=success" alt="Version"/>
+    <a href="https://github.com/tunacosgun/txtai/releases">
+        <img src="https://img.shields.io/github/release/tunacosgun/txtai.svg?style=flat&color=success" alt="Version"/>
     </a>
-    <a href="https://github.com/neuml/txtai">
-        <img src="https://img.shields.io/github/last-commit/neuml/txtai.svg?style=flat&color=blue" alt="GitHub last commit"/>
+    <a href="https://github.com/tunacosgun/txtai">
+        <img src="https://img.shields.io/github/last-commit/tunacosgun/txtai.svg?style=flat&color=blue" alt="GitHub last commit"/>
     </a>
-    <a href="https://github.com/neuml/txtai/issues">
-        <img src="https://img.shields.io/github/issues/neuml/txtai.svg?style=flat&color=success" alt="GitHub issues"/>
+    <a href="https://github.com/tunacosgun/txtai/issues">
+        <img src="https://img.shields.io/github/issues/tunacosgun/txtai.svg?style=flat&color=success" alt="GitHub issues"/>
     </a>
     <a href="https://join.slack.com/t/txtai/shared_invite/zt-37c1zfijp-Y57wMty6YOx_hyIHEQvQJA">
         <img src="https://img.shields.io/badge/slack-join-blue?style=flat&logo=slack&logocolor=white" alt="Join Slack"/>
     </a>
-    <a href="https://github.com/neuml/txtai/actions?query=workflow%3Abuild">
-        <img src="https://github.com/neuml/txtai/workflows/build/badge.svg" alt="Build Status"/>
+    <a href="https://github.com/tunacosgun/txtai/actions?query=workflow%3Abuild">
+        <img src="https://github.com/tunacosgun/txtai/workflows/build/badge.svg" alt="Build Status"/>
     </a>
-    <a href="https://coveralls.io/github/neuml/txtai?branch=master">
-        <img src="https://img.shields.io/coverallsCoverage/github/neuml/txtai" alt="Coverage Status">
+    <a href="https://coveralls.io/github/tunacosgun/txtai?branch=master">
+        <img src="https://img.shields.io/coverallsCoverage/github/tunacosgun/txtai" alt="Coverage Status">
     </a>
 </p>
 
@@ -47,7 +47,7 @@ Summary of txtai features:
 - 💡 Pipelines powered by language models that run LLM prompts, question-answering, labeling, transcription, translation, summarization and more
 - ↪️️ Workflows to join pipelines together and aggregate business logic. txtai processes can be simple microservices or multi-model workflows.
 - 🤖 Agents that intelligently connect embeddings, pipelines, workflows and other agents together to autonomously solve complex problems
-- ⚙️ Web and Model Context Protocol (MCP) APIs. Bindings available for [JavaScript](https://github.com/neuml/txtai.js), [Java](https://github.com/neuml/txtai.java), [Rust](https://github.com/neuml/txtai.rs) and [Go](https://github.com/neuml/txtai.go).
+- ⚙️ Web and Model Context Protocol (MCP) APIs. Bindings available for [JavaScript](https://github.com/tunacosgun/txtai.js), [Java](https://github.com/tunacosgun/txtai.java), [Rust](https://github.com/tunacosgun/txtai.rs) and [Go](https://github.com/tunacosgun/txtai.go).
 - 🔋 Batteries included with defaults to get up and running fast
 - ☁️ Run local or scale out with container orchestration
 
@@ -55,6 +55,6 @@ txtai is built with Python 3.10+, [Hugging Face Transformers](https://github.com
 
 !!! note
 
-    [NeuML](https://neuml.com) is the company behind txtai and we provide AI consulting services around our stack. [Schedule a meeting](https://cal.com/neuml/intro) or [send a message](mailto:info@neuml.com) to learn more.
+    [Tunasoft Yazılım](https://tunahancosgun.dev) is the company behind txtai and we provide AI consulting services around our stack. [Schedule a meeting](https://cal.com/tunacosgun/intro) or [send a message](mailto:info@tunahancosgun.dev) to learn more.
 
     We're also building an easy and secure way to run hosted txtai applications with [txtai.cloud](https://txtai.cloud).

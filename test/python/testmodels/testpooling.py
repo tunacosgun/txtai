@@ -42,7 +42,7 @@ class TestPooling(unittest.TestCase):
         """
 
         # Test last pooling
-        pooling = PoolingFactory.create({"path": "neuml/bert-tiny-sts-last-pooling", "device": self.device})
+        pooling = PoolingFactory.create({"path": "tunacosgun/bert-tiny-sts-last-pooling", "device": self.device})
         self.assertEqual(type(pooling), LastPooling)
 
         pooling = PoolingFactory.create({"method": "lastpooling", "path": "sentence-transformers/nli-mpnet-base-v2", "device": self.device})
@@ -92,7 +92,7 @@ class TestPooling(unittest.TestCase):
         """
 
         # Test MUVERA encoding
-        for model in ["neuml/colbert-bert-tiny", "neuml/pylate-bert-tiny"]:
+        for model in ["tunacosgun/colbert-bert-tiny", "tunacosgun/pylate-bert-tiny"]:
             # Test defaults
             pooling = PoolingFactory.create({"path": model, "device": self.device})
             self.assertEqual(pooling.encode(["test"], category="query").shape, (1, 10240))
@@ -109,14 +109,14 @@ class TestPooling(unittest.TestCase):
         """
 
         # Load model with prompts
-        pooling = PoolingFactory.create({"path": "neuml/bert-tiny-prompts", "device": self.device, "loadprompts": True})
+        pooling = PoolingFactory.create({"path": "tunacosgun/bert-tiny-prompts", "device": self.device, "loadprompts": True})
 
         # Test prompts are prepended
         self.assertEqual(pooling.preencode(["abc"], "query")[0], "query: abc")
         self.assertEqual(pooling.preencode(["text"], "data")[0], "document: text")
 
         # Load model with prompts disabled (default)
-        pooling = PoolingFactory.create({"path": "neuml/bert-tiny-prompts", "device": self.device})
+        pooling = PoolingFactory.create({"path": "tunacosgun/bert-tiny-prompts", "device": self.device})
 
         # Test that prompts are not prepended
         self.assertEqual(pooling.preencode(["abc"], "query")[0], "abc")

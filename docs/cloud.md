@@ -10,7 +10,7 @@ Scalable cloud-native applications can be built with txtai. The following cloud 
 - Serverless Compute
 - txtai.cloud (planned for future)
 
-Images for txtai are available on Docker Hub for [CPU](https://hub.docker.com/r/neuml/txtai-cpu) and [GPU](https://hub.docker.com/r/neuml/txtai-gpu) installs. The CPU install is recommended when GPUs aren't available given the image is significantly smaller.
+Images for txtai are available on Docker Hub for [CPU](https://hub.docker.com/r/tunacosgun/txtai-cpu) and [GPU](https://hub.docker.com/r/tunacosgun/txtai-gpu) installs. The CPU install is recommended when GPUs aren't available given the image is significantly smaller.
 
 The base txtai images have no models installed and models will be downloaded each time the container starts. Caching the models is recommended as that will significantly reduce container start times. This can be done a couple different ways.
 
@@ -28,7 +28,7 @@ Examples build commands below.
 
 ```bash
 # Get Dockerfile
-wget https://raw.githubusercontent.com/neuml/txtai/master/docker/base/Dockerfile
+wget https://raw.githubusercontent.com/tunacosgun/txtai/master/docker/base/Dockerfile
 
 # Build Ubuntu 22.04 image running Python 3.10
 docker build -t txtai --build-arg BASE_IMAGE=ubuntu:22.04 --build-arg PYTHON_VERSION=3.10 .
@@ -62,13 +62,13 @@ The next section builds the image and starts an instance.
 
 ```bash
 # Get Dockerfile
-wget https://raw.githubusercontent.com/neuml/txtai/master/docker/api/Dockerfile
+wget https://raw.githubusercontent.com/tunacosgun/txtai/master/docker/api/Dockerfile
 
 # CPU build
 docker build -t txtai-api .
 
 # GPU build
-docker build -t txtai-api --build-arg BASE_IMAGE=neuml/txtai-gpu .
+docker build -t txtai-api --build-arg BASE_IMAGE=tunacosgun/txtai-gpu .
 
 # Run
 docker run -p 8000:8000 --rm -it txtai-api
@@ -79,13 +79,13 @@ This section builds a scheduled workflow service. [More on scheduled workflows c
 
 ```bash
 # Get Dockerfile
-wget https://raw.githubusercontent.com/neuml/txtai/master/docker/service/Dockerfile
+wget https://raw.githubusercontent.com/tunacosgun/txtai/master/docker/service/Dockerfile
 
 # CPU build
 docker build -t txtai-service .
 
 # GPU build
-docker build -t txtai-service --build-arg BASE_IMAGE=neuml/txtai-gpu .
+docker build -t txtai-service --build-arg BASE_IMAGE=tunacosgun/txtai-gpu .
 
 # Run
 docker run --rm -it txtai-service
@@ -96,13 +96,13 @@ This section builds a single run workflow. [Example workflows can be found here.
 
 ```bash
 # Get Dockerfile
-wget https://raw.githubusercontent.com/neuml/txtai/master/docker/workflow/Dockerfile
+wget https://raw.githubusercontent.com/tunacosgun/txtai/master/docker/workflow/Dockerfile
 
 # CPU build
 docker build -t txtai-workflow . 
 
 # GPU build
-docker build -t txtai-workflow --build-arg BASE_IMAGE=neuml/txtai-gpu .
+docker build -t txtai-workflow --build-arg BASE_IMAGE=tunacosgun/txtai-gpu .
 
 # Run
 docker run --rm -it txtai-workflow <workflow name> <workflow parameters>
@@ -156,8 +156,8 @@ Resources:
 
 ```bash
 # Get Dockerfile and application
-wget https://raw.githubusercontent.com/neuml/txtai/master/docker/aws/api.py
-wget https://raw.githubusercontent.com/neuml/txtai/master/docker/aws/Dockerfile
+wget https://raw.githubusercontent.com/tunacosgun/txtai/master/docker/aws/api.py
+wget https://raw.githubusercontent.com/tunacosgun/txtai/master/docker/aws/Dockerfile
 
 # Build the docker image
 sam build
@@ -175,7 +175,7 @@ If successful, a local API instance is now running in a "serverless" fashion. Th
 
 txtai scales with container orchestration systems. This can be self-hosted or with a cloud provider such as [Amazon Elastic Kubernetes Service](https://aws.amazon.com/eks/), [Google Kubernetes Engine](https://cloud.google.com/kubernetes-engine) and [Azure Kubernetes Service](https://azure.microsoft.com/en-us/services/kubernetes-service/). There are also other smaller providers with a managed Kubernetes offering.
 
-A full example covering how to build a serverless txtai application on Kubernetes with Knative [can be found here](https://medium.com/neuml/serverless-vector-search-with-txtai-96f6163ab972).
+A full example covering how to build a serverless txtai application on Kubernetes with Knative [can be found here](https://medium.com/tunasoft/serverless-vector-search-with-txtai-96f6163ab972).
 
 ## txtai.cloud
 

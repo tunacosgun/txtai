@@ -255,9 +255,9 @@ class Batting(Stats):
 
     def load(self):
         # Retrieve raw data
-        players = pd.read_csv("https://hf.co/datasets/neuml/baseballdata/resolve/main/People.csv")
-        batting = pd.read_csv("https://hf.co/datasets/neuml/baseballdata/resolve/main/Batting.csv")
-        fielding = pd.read_csv("https://hf.co/datasets/neuml/baseballdata/resolve/main/Fielding.csv")
+        players = pd.read_csv("https://hf.co/datasets/tunacosgun/baseballdata/resolve/main/People.csv")
+        batting = pd.read_csv("https://hf.co/datasets/tunacosgun/baseballdata/resolve/main/Batting.csv")
+        fielding = pd.read_csv("https://hf.co/datasets/tunacosgun/baseballdata/resolve/main/Fielding.csv")
 
         # Merge player data in
         batting = pd.merge(players, batting, how="inner", on=["playerID"])
@@ -389,8 +389,8 @@ class Pitching(Stats):
 
     def load(self):
         # Retrieve raw data
-        players = pd.read_csv("https://hf.co/datasets/neuml/baseballdata/resolve/main/People.csv")
-        pitching = pd.read_csv("https://hf.co/datasets/neuml/baseballdata/resolve/main/Pitching.csv")
+        players = pd.read_csv("https://hf.co/datasets/tunacosgun/baseballdata/resolve/main/People.csv")
+        pitching = pd.read_csv("https://hf.co/datasets/tunacosgun/baseballdata/resolve/main/Pitching.csv")
 
         # Merge player data in
         pitching = pd.merge(players, pitching, how="inner", on=["playerID"])
@@ -440,9 +440,9 @@ class Application:
         st.title("⚾ Baseball Stats")
         st.markdown(
             """
-            This application finds the best matching players using vector search with [txtai](https://github.com/neuml/txtai).
+            This application finds the best matching players using vector search with [txtai](https://github.com/tunacosgun/txtai).
             Raw data is from the [Lahman Baseball Database](https://sabr.org/lahman-database/). Read [this
-            article](https://medium.com/neuml/explore-baseball-history-with-vector-search-5778d98d6846) for more details.
+            article](https://medium.com/tunasoft/explore-baseball-history-with-vector-search-5778d98d6846) for more details.
             """
         )
 

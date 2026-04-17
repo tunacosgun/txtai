@@ -3,7 +3,7 @@ Agent Quick Start
 Easy to use way to get started with AI Agents.
 
 TxtAI has many example notebooks covering everything the framework provides
-Examples: https://neuml.github.io/txtai/examples
+Examples: https://tunacosgun.github.io/txtai/examples
 
 Install TxtAI
   pip install txtai[agent]
@@ -22,7 +22,7 @@ embeddings = {
     "description": "Searches a Wikipedia database",
     # "path": "path to your embeddings database"
     "provider": "huggingface-hub",
-    "container": "neuml/txtai-wikipedia",
+    "container": "tunacosgun/txtai-wikipedia",
 }
 
 

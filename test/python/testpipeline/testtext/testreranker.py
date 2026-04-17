@@ -36,7 +36,7 @@ class TestReranker(unittest.TestCase):
         embeddings = Embeddings(content=True)
         embeddings.index(self.data)
 
-        similarity = Similarity("neuml/colbert-bert-tiny", lateencode=True)
+        similarity = Similarity("tunacosgun/colbert-bert-tiny", lateencode=True)
 
         ranker = Reranker(embeddings, similarity)
         self.assertEqual(ranker("lottery winner")[0]["id"], "4")

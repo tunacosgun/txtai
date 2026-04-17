@@ -32,7 +32,7 @@ class TestTextToSpeech(unittest.TestCase):
         Test generating speech for text with a Kokoro model
         """
 
-        tts = TextToSpeech("neuml/kokoro-int8-onnx", maxtokens=2)
+        tts = TextToSpeech("tunacosgun/kokoro-int8-onnx", maxtokens=2)
 
         # Check that data is generated
         speech, rate = tts("This is a test")
@@ -59,7 +59,7 @@ class TestTextToSpeech(unittest.TestCase):
         Test generating speech for text with a SpeechT5 model
         """
 
-        tts = TextToSpeech("neuml/txtai-speecht5-onnx")
+        tts = TextToSpeech("tunacosgun/txtai-speecht5-onnx")
 
         # Check that data is generated
         speech, rate = tts("This is a test")

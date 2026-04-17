@@ -188,8 +188,8 @@ workflow:
 
 See the following links for more information.
 
-- [Workflow Demo](https://huggingface.co/spaces/NeuML/txtai)
-- [Workflow YAML Examples](https://huggingface.co/spaces/NeuML/txtai/tree/main/workflows)
+- [Workflow Demo](https://huggingface.co/spaces/Tunasoft Yazılım/txtai)
+- [Workflow YAML Examples](https://huggingface.co/spaces/Tunasoft Yazılım/txtai/tree/main/workflows)
 - [Workflow YAML Guide](../api/configuration/#workflow)
 
 ## Methods
@@ -202,4 +202,4 @@ Workflows are callable objects. Workflows take an input of iterable data element
 
 ## More examples
 
-Check out this [Workflow Quickstart Example](https://github.com/neuml/txtai/blob/master/examples/workflow_quickstart.py). See [this link](../examples/#workflows) for a full list of workflow examples.
+Check out this [Workflow Quickstart Example](https://github.com/tunacosgun/txtai/blob/master/examples/workflow_quickstart.py). See [this link](../examples/#workflows) for a full list of workflow examples.

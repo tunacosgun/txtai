@@ -28,7 +28,7 @@ See the link below for a more detailed example.
 
 | Notebook  | Description  |       |
 |:----------|:-------------|------:|
-| [Add semantic search to Elasticsearch](https://github.com/neuml/txtai/blob/master/examples/04_Add_semantic_search_to_Elasticsearch.ipynb)  | Add semantic search to existing search systems | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/neuml/txtai/blob/master/examples/04_Add_semantic_search_to_Elasticsearch.ipynb) |
+| [Add semantic search to Elasticsearch](https://github.com/tunacosgun/txtai/blob/master/examples/04_Add_semantic_search_to_Elasticsearch.ipynb)  | Add semantic search to existing search systems | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tunacosgun/txtai/blob/master/examples/04_Add_semantic_search_to_Elasticsearch.ipynb) |
 
 ## Configuration-driven example
 

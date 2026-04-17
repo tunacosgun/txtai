@@ -52,7 +52,7 @@ class TestSimilarity(unittest.TestCase):
         Test late-encoder similarity model
         """
 
-        similarity = Similarity("neuml/pylate-bert-tiny", lateencode=True)
+        similarity = Similarity("tunacosgun/pylate-bert-tiny", lateencode=True)
         uid = similarity("Who won the lottery?", self.data)[0][0]
         self.assertEqual(self.data[uid], self.data[4])
 
@@ -65,7 +65,7 @@ class TestSimilarity(unittest.TestCase):
         Test late-encoder similarity model with multiple inputs
         """
 
-        similarity = Similarity("neuml/colbert-bert-tiny", lateencode=True)
+        similarity = Similarity("tunacosgun/colbert-bert-tiny", lateencode=True)
         results = [r[0][0] for r in similarity(["Who won the lottery?", "Where did an iceberg collapse?"], self.data)]
         self.assertEqual(results, [4, 1])
 

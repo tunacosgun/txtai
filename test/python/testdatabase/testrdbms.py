@@ -585,7 +585,7 @@ class Common:
             """
 
             embeddings = Embeddings(
-                {"path": "sentence-transformers/nli-mpnet-base-v2", "content": self.backend, "query": {"path": "neuml/t5-small-txtsql"}}
+                {"path": "sentence-transformers/nli-mpnet-base-v2", "content": self.backend, "query": {"path": "tunacosgun/t5-small-txtsql"}}
             )
 
             # Create an index for the list of text

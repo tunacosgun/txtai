@@ -23,11 +23,11 @@ yield from tts(
 )
 
 # Generate audio using a speaker id
-tts = TextToSpeech("neuml/vctk-vits-onnx")
+tts = TextToSpeech("tunacosgun/vctk-vits-onnx")
 tts("Say something here", speaker=15)
 
 # Generate audio using speaker embeddings
-tts = TextToSpeech("neuml/txtai-speecht5-onnx")
+tts = TextToSpeech("tunacosgun/txtai-speecht5-onnx")
 tts("Say something here", speaker=np.array(...))
 ```
 
@@ -35,17 +35,17 @@ See the links below for a more detailed example.
 
 | Notebook  | Description  |       |
 |:----------|:-------------|------:|
-| [Text to speech generation](https://github.com/neuml/txtai/blob/master/examples/40_Text_to_Speech_Generation.ipynb) | Generate speech from text | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/neuml/txtai/blob/master/examples/40_Text_to_Speech_Generation.ipynb) |
-| [Speech to Speech RAG](https://github.com/neuml/txtai/blob/master/examples/65_Speech_to_Speech_RAG.ipynb) [▶️](https://www.youtube.com/watch?v=tH8QWwkVMKA) | Full cycle speech to speech workflow with RAG | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/neuml/txtai/blob/master/examples/65_Speech_to_Speech_RAG.ipynb) |
-| [Generative Audio](https://github.com/neuml/txtai/blob/master/examples/66_Generative_Audio.ipynb) | Storytelling with generative audio workflows | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/neuml/txtai/blob/master/examples/66_Generative_Audio.ipynb) |
+| [Text to speech generation](https://github.com/tunacosgun/txtai/blob/master/examples/40_Text_to_Speech_Generation.ipynb) | Generate speech from text | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tunacosgun/txtai/blob/master/examples/40_Text_to_Speech_Generation.ipynb) |
+| [Speech to Speech RAG](https://github.com/tunacosgun/txtai/blob/master/examples/65_Speech_to_Speech_RAG.ipynb) [▶️](https://www.youtube.com/watch?v=tH8QWwkVMKA) | Full cycle speech to speech workflow with RAG | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tunacosgun/txtai/blob/master/examples/65_Speech_to_Speech_RAG.ipynb) |
+| [Generative Audio](https://github.com/tunacosgun/txtai/blob/master/examples/66_Generative_Audio.ipynb) | Storytelling with generative audio workflows | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tunacosgun/txtai/blob/master/examples/66_Generative_Audio.ipynb) |
 
 This pipeline is backed by ONNX models from the Hugging Face Hub. The following models are currently available.
 
-- [kokoro-base-onnx](https://huggingface.co/NeuML/kokoro-base-onnx) | [fp16](https://huggingface.co/NeuML/kokoro-fp16-onnx) | [int8](https://huggingface.co/NeuML/kokoro-int8-onnx)
-- [ljspeech-jets-onnx](https://huggingface.co/NeuML/ljspeech-jets-onnx)
-- [ljspeech-vits-onnx](https://huggingface.co/NeuML/ljspeech-vits-onnx)
-- [vctk-vits-onnx](https://huggingface.co/NeuML/vctk-vits-onnx)
-- [txtai-speecht5-onnx](https://huggingface.co/NeuML/txtai-speecht5-onnx)
+- [kokoro-base-onnx](https://huggingface.co/Tunasoft Yazılım/kokoro-base-onnx) | [fp16](https://huggingface.co/Tunasoft Yazılım/kokoro-fp16-onnx) | [int8](https://huggingface.co/Tunasoft Yazılım/kokoro-int8-onnx)
+- [ljspeech-jets-onnx](https://huggingface.co/Tunasoft Yazılım/ljspeech-jets-onnx)
+- [ljspeech-vits-onnx](https://huggingface.co/Tunasoft Yazılım/ljspeech-vits-onnx)
+- [vctk-vits-onnx](https://huggingface.co/Tunasoft Yazılım/vctk-vits-onnx)
+- [txtai-speecht5-onnx](https://huggingface.co/Tunasoft Yazılım/txtai-speecht5-onnx)
 
 ## Configuration-driven example
 

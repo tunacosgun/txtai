@@ -12,7 +12,7 @@ See the link below for a detailed example.
 
 | Notebook  | Description  |       |
 |:----------|:-------------|------:|
-| [Custom API Endpoints](https://github.com/neuml/txtai/blob/master/examples/51_Custom_API_Endpoints.ipynb) | Extend the API with custom endpoints | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/neuml/txtai/blob/master/examples/51_Custom_API_Endpoints.ipynb) |
+| [Custom API Endpoints](https://github.com/tunacosgun/txtai/blob/master/examples/51_Custom_API_Endpoints.ipynb) | Extend the API with custom endpoints | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tunacosgun/txtai/blob/master/examples/51_Custom_API_Endpoints.ipynb) |
 
 ## Dependencies
 
@@ -22,4 +22,4 @@ See the link below for a detailed example.
 
 | Notebook  | Description  |       |
 |:----------|:-------------|------:|
-| [API Authorization and Authentication](https://github.com/neuml/txtai/blob/master/examples/54_API_Authorization_and_Authentication.ipynb) | Add authorization, authentication and middleware dependencies to the API | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/neuml/txtai/blob/master/examples/54_API_Authorization_and_Authentication.ipynb) |
+| [API Authorization and Authentication](https://github.com/tunacosgun/txtai/blob/master/examples/54_API_Authorization_and_Authentication.ipynb) | Add authorization, authentication and middleware dependencies to the API | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tunacosgun/txtai/blob/master/examples/54_API_Authorization_and_Authentication.ipynb) |

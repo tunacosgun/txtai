@@ -58,6 +58,6 @@ class TestEntity(unittest.TestCase):
         Test entity pipeline with a GLiNER model
         """
 
-        entity = Entity("neuml/gliner-bert-tiny")
+        entity = Entity("tunacosgun/gliner-bert-tiny")
         entities = entity("My name is John Smith.", flatten=True)
         self.assertEqual(entities, ["John Smith"])

@@ -251,7 +251,7 @@ class TestOptional(unittest.TestCase):
             Caption()
 
         with self.assertRaises(ImportError):
-            Entity("neuml/gliner-bert-tiny")
+            Entity("tunacosgun/gliner-bert-tiny")
 
         with self.assertRaises(ImportError):
             FileToHTML(backend="docling")

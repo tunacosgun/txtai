@@ -17,4 +17,4 @@ See the link below for a detailed example covering distributed embeddings cluste
 
 | Notebook  | Description  |       |
 |:----------|:-------------|------:|
-| [Distributed embeddings cluster](https://github.com/neuml/txtai/blob/master/examples/15_Distributed_embeddings_cluster.ipynb) | Distribute an embeddings index across multiple data nodes | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/neuml/txtai/blob/master/examples/15_Distributed_embeddings_cluster.ipynb) |
+| [Distributed embeddings cluster](https://github.com/tunacosgun/txtai/blob/master/examples/15_Distributed_embeddings_cluster.ipynb) | Distribute an embeddings index across multiple data nodes | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tunacosgun/txtai/blob/master/examples/15_Distributed_embeddings_cluster.ipynb) |

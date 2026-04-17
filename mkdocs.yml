@@ -4,9 +4,9 @@
 
 site_name: txtai
 site_description: "txtai is an all-in-one open-source AI framework for semantic search, LLM orchestration and language model workflows"
-repo_name: neuml/txtai
-repo_url: https://github.com/neuml/txtai
-copyright: © NeuML LLC, Apache-2.0 License
+repo_name: tunacosgun/txtai
+repo_url: https://github.com/tunacosgun/txtai
+copyright: © Tunasoft Yazılım LLC, Apache-2.0 License
 theme:
     name: material
     logo: images/logo.png

@@ -22,14 +22,14 @@ wikipedia = {
     "name": "wikipedia",
     "description": "Searches a Wikipedia database",
     "provider": "huggingface-hub",
-    "container": "neuml/txtai-wikipedia"
+    "container": "tunacosgun/txtai-wikipedia"
 }
 
 arxiv = {
     "name": "arxiv",
     "description": "Searches a database of scientific papers",
     "provider": "huggingface-hub",
-    "container": "neuml/txtai-arxiv"
+    "container": "tunacosgun/txtai-arxiv"
 }
 
 def today() -> str:
@@ -98,7 +98,7 @@ wikiman = Agent(
         "name": "wikipedia",
         "description": "Searches a Wikipedia database",
         "provider": "huggingface-hub",
-        "container": "neuml/txtai-wikipedia"
+        "container": "tunacosgun/txtai-wikipedia"
     }],
 )
 
@@ -108,7 +108,7 @@ researcher = Agent(
         "name": "arxiv",
         "description": "Searches a database of scientific papers",
         "provider": "huggingface-hub",
-        "container": "neuml/txtai-arxiv"
+        "container": "tunacosgun/txtai-arxiv"
     }],
 )
 
@@ -142,15 +142,15 @@ Write the output in Markdown.
 
 # More examples
 
-Check out this [Agent Quickstart Example](https://github.com/neuml/txtai/blob/master/examples/agent_quickstart.py). Additional examples are listed below.
+Check out this [Agent Quickstart Example](https://github.com/tunacosgun/txtai/blob/master/examples/agent_quickstart.py). Additional examples are listed below.
 
 | Notebook  | Description  |       |
 |:----------|:-------------|------:|
-| [What's new in txtai 8.0](https://github.com/neuml/txtai/blob/master/examples/67_Whats_new_in_txtai_8_0.ipynb) | Agents with txtai | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/neuml/txtai/blob/master/examples/67_Whats_new_in_txtai_8_0.ipynb) |
-| [Analyzing Hugging Face Posts with Graphs and Agents](https://github.com/neuml/txtai/blob/master/examples/68_Analyzing_Hugging_Face_Posts_with_Graphs_and_Agents.ipynb) | Explore a rich dataset with Graph Analysis and Agents | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/neuml/txtai/blob/master/examples/68_Analyzing_Hugging_Face_Posts_with_Graphs_and_Agents.ipynb) |
-| [Granting autonomy to agents](https://github.com/neuml/txtai/blob/master/examples/69_Granting_autonomy_to_agents.ipynb) | Agents that iteratively solve problems as they see fit | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/neuml/txtai/blob/master/examples/69_Granting_autonomy_to_agents.ipynb) |
-| [Analyzing LinkedIn Company Posts with Graphs and Agents](https://github.com/neuml/txtai/blob/master/examples/71_Analyzing_LinkedIn_Company_Posts_with_Graphs_and_Agents.ipynb) | Exploring how to improve social media engagement with AI | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/neuml/txtai/blob/master/examples/71_Analyzing_LinkedIn_Company_Posts_with_Graphs_and_Agents.ipynb) |
-| [Parsing the stars with txtai](https://github.com/neuml/txtai/blob/master/examples/72_Parsing_the_stars_with_txtai.ipynb) | Explore an astronomical knowledge graph of known stars, planets, galaxies | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/neuml/txtai/blob/master/examples/72_Parsing_the_stars_with_txtai.ipynb) |
-| [Agentic College Search](https://github.com/neuml/txtai/blob/master/examples/82_Agentic_College_Search.ipynb) | Identify list of strong engineering colleges | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/neuml/txtai/blob/master/examples/82_Agentic_College_Search.ipynb) |
-| [TxtAI got skills](https://github.com/neuml/txtai/blob/master/examples/83_TxtAI_got_skills.ipynb) | Integrate skill.md files with your agent | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/neuml/txtai/blob/master/examples/83_TxtAI_got_skills.ipynb) |
-| [Agent Tools](https://github.com/neuml/txtai/blob/master/examples/84_Agent_Tools.ipynb) [▶️](https://www.youtube.com/watch?v=RDNaFXQy3GQ) | Learn about the txtai agent toolkit | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/neuml/txtai/blob/master/examples/84_Agent_Tools.ipynb) |
+| [What's new in txtai 8.0](https://github.com/tunacosgun/txtai/blob/master/examples/67_Whats_new_in_txtai_8_0.ipynb) | Agents with txtai | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tunacosgun/txtai/blob/master/examples/67_Whats_new_in_txtai_8_0.ipynb) |
+| [Analyzing Hugging Face Posts with Graphs and Agents](https://github.com/tunacosgun/txtai/blob/master/examples/68_Analyzing_Hugging_Face_Posts_with_Graphs_and_Agents.ipynb) | Explore a rich dataset with Graph Analysis and Agents | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tunacosgun/txtai/blob/master/examples/68_Analyzing_Hugging_Face_Posts_with_Graphs_and_Agents.ipynb) |
+| [Granting autonomy to agents](https://github.com/tunacosgun/txtai/blob/master/examples/69_Granting_autonomy_to_agents.ipynb) | Agents that iteratively solve problems as they see fit | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tunacosgun/txtai/blob/master/examples/69_Granting_autonomy_to_agents.ipynb) |
+| [Analyzing LinkedIn Company Posts with Graphs and Agents](https://github.com/tunacosgun/txtai/blob/master/examples/71_Analyzing_LinkedIn_Company_Posts_with_Graphs_and_Agents.ipynb) | Exploring how to improve social media engagement with AI | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tunacosgun/txtai/blob/master/examples/71_Analyzing_LinkedIn_Company_Posts_with_Graphs_and_Agents.ipynb) |
+| [Parsing the stars with txtai](https://github.com/tunacosgun/txtai/blob/master/examples/72_Parsing_the_stars_with_txtai.ipynb) | Explore an astronomical knowledge graph of known stars, planets, galaxies | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tunacosgun/txtai/blob/master/examples/72_Parsing_the_stars_with_txtai.ipynb) |
+| [Agentic College Search](https://github.com/tunacosgun/txtai/blob/master/examples/82_Agentic_College_Search.ipynb) | Identify list of strong engineering colleges | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tunacosgun/txtai/blob/master/examples/82_Agentic_College_Search.ipynb) |
+| [TxtAI got skills](https://github.com/tunacosgun/txtai/blob/master/examples/83_TxtAI_got_skills.ipynb) | Integrate skill.md files with your agent | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tunacosgun/txtai/blob/master/examples/83_TxtAI_got_skills.ipynb) |
+| [Agent Tools](https://github.com/tunacosgun/txtai/blob/master/examples/84_Agent_Tools.ipynb) [▶️](https://www.youtube.com/watch?v=RDNaFXQy3GQ) | Learn about the txtai agent toolkit | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tunacosgun/txtai/blob/master/examples/84_Agent_Tools.ipynb) |

@@ -24,7 +24,7 @@ What is the best way to track the progress of an `embeddings.index` call?
 
 __Answer__
 
-Wrap the list or generator passed to the index call with tqdm. See [#478](https://github.com/neuml/txtai/issues/478) for more.
+Wrap the list or generator passed to the index call with tqdm. See [#478](https://github.com/tunacosgun/txtai/issues/478) for more.
 
 ----------
 
@@ -36,7 +36,7 @@ __Answer__
 
 See the [observability](../observability) section for more on how this can be enabled in txtai processes.
 
-txtai also has a console application. [This article](https://medium.com/neuml/insights-from-the-txtai-console-d307c28e149e) has more details.
+txtai also has a console application. [This article](https://medium.com/tunasoft/insights-from-the-txtai-console-d307c28e149e) has more details.
 
 ----------
 
@@ -134,7 +134,7 @@ __Issue__
 
 __Solution__
 
-Restart the kernel. See issue [#409](https://github.com/neuml/txtai/issues/409) for more on this issue. 
+Restart the kernel. See issue [#409](https://github.com/tunacosgun/txtai/issues/409) for more on this issue. 
 
 ----------
 

@@ -24,7 +24,7 @@ See the link below for a more detailed example.
 
 | Notebook  | Description  |       |
 |:----------|:-------------|------:|
-| [Apply labels with zero shot classification](https://github.com/neuml/txtai/blob/master/examples/07_Apply_labels_with_zero_shot_classification.ipynb) | Use zero shot learning for labeling, classification and topic modeling | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/neuml/txtai/blob/master/examples/07_Apply_labels_with_zero_shot_classification.ipynb) |
+| [Apply labels with zero shot classification](https://github.com/tunacosgun/txtai/blob/master/examples/07_Apply_labels_with_zero_shot_classification.ipynb) | Use zero shot learning for labeling, classification and topic modeling | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tunacosgun/txtai/blob/master/examples/07_Apply_labels_with_zero_shot_classification.ipynb) |
 
 ## Configuration-driven example
 

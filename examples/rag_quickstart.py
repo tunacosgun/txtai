@@ -2,10 +2,10 @@
 RAG Quick Start
 Easy to use way to get started with RAG using YOUR data
 
-For a complete application see this: https://github.com/neuml/rag
+For a complete application see this: https://github.com/tunacosgun/rag
 
 TxtAI has many example notebooks covering everything the framework provides
-Examples: https://neuml.github.io/txtai/examples
+Examples: https://tunacosgun.github.io/txtai/examples
 
 Install TxtAI
   pip install txtai[pipeline-data]
@@ -26,7 +26,7 @@ files = [os.path.join(path, f) for f in os.listdir(path) if os.path.isfile(os.pa
 # Step 2: Text Extraction / Chunking
 #
 # Using section based chunking here. More complex options available such as semantic chunking, iterative chunking etc.
-# Documentation: https://neuml.github.io/txtai/pipeline/data/textractor
+# Documentation: https://tunacosgun.github.io/txtai/pipeline/data/textractor
 # Supports Chonkie chunking as well: https://docs.chonkie.ai/oss/chunkers/overview
 textractor = Textractor(backend="docling", sections=True)
 chunks = []
@@ -37,7 +37,7 @@ for f in files:
 # Step 3: Build an embeddings database
 #
 # The `path` parameter sets the vector embeddings model. Supports Hugging Face models, llama.cpp, Ollama, vLLM and more.
-# Documentation: https://neuml.github.io/txtai/embeddings/
+# Documentation: https://tunacosgun.github.io/txtai/embeddings/
 embeddings = Embeddings(content=True, path="Qwen/Qwen3-Embedding-0.6B", maxlength=2048)
 embeddings.index(chunks)
 
@@ -45,7 +45,7 @@ embeddings.index(chunks)
 #
 # Combines an embeddings database and an LLM.
 # Supports Hugging Face models, llama.cpp, Ollama, vLLM and more
-# Documentation: https://neuml.github.io/txtai/pipeline/text/rag
+# Documentation: https://tunacosgun.github.io/txtai/pipeline/text/rag
 
 # User prompt template
 template = """

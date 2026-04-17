@@ -21,7 +21,7 @@ See the link below for a more detailed example.
 
 | Notebook  | Description  |       |
 |:----------|:-------------|------:|
-| [Translate text between languages](https://github.com/neuml/txtai/blob/master/examples/12_Translate_text_between_languages.ipynb) | Streamline machine translation and language detection | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/neuml/txtai/blob/master/examples/12_Translate_text_between_languages.ipynb) |
+| [Translate text between languages](https://github.com/tunacosgun/txtai/blob/master/examples/12_Translate_text_between_languages.ipynb) | Streamline machine translation and language detection | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tunacosgun/txtai/blob/master/examples/12_Translate_text_between_languages.ipynb) |
 
 ## Configuration-driven example
 

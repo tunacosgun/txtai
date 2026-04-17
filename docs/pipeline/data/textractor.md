@@ -27,15 +27,15 @@ from txtai.pipeline import Textractor
 
 # Create and run pipeline
 textract = Textractor()
-textract("https://github.com/neuml/txtai")
+textract("https://github.com/tunacosgun/txtai")
 ```
 
 See the link below for a more detailed example.
 
 | Notebook  | Description  |       |
 |:----------|:-------------|------:|
-| [Extract text from documents](https://github.com/neuml/txtai/blob/master/examples/10_Extract_text_from_documents.ipynb) | Extract text from PDF, Office, HTML and more | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/neuml/txtai/blob/master/examples/10_Extract_text_from_documents.ipynb) |
-| [Chunking your data for RAG](https://github.com/neuml/txtai/blob/master/examples/73_Chunking_your_data_for_RAG.ipynb) | Extract, chunk and index content for effective retrieval | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/neuml/txtai/blob/master/examples/73_Chunking_your_data_for_RAG.ipynb) |
+| [Extract text from documents](https://github.com/tunacosgun/txtai/blob/master/examples/10_Extract_text_from_documents.ipynb) | Extract text from PDF, Office, HTML and more | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tunacosgun/txtai/blob/master/examples/10_Extract_text_from_documents.ipynb) |
+| [Chunking your data for RAG](https://github.com/tunacosgun/txtai/blob/master/examples/73_Chunking_your_data_for_RAG.ipynb) | Extract, chunk and index content for effective retrieval | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tunacosgun/txtai/blob/master/examples/73_Chunking_your_data_for_RAG.ipynb) |
 
 ## Configuration-driven example
 
@@ -60,7 +60,7 @@ from txtai import Application
 
 # Create and run pipeline with workflow
 app = Application("config.yml")
-list(app.workflow("textract", ["https://github.com/neuml/txtai"]))
+list(app.workflow("textract", ["https://github.com/tunacosgun/txtai"]))
 ```
 
 ### Run with API
@@ -71,7 +71,7 @@ CONFIG=config.yml uvicorn "txtai.api:app" &
 curl \
   -X POST "http://localhost:8000/workflow" \
   -H "Content-Type: application/json" \
-  -d '{"name":"textract", "elements":["https://github.com/neuml/txtai"]}'
+  -d '{"name":"textract", "elements":["https://github.com/tunacosgun/txtai"]}'
 ```
 
 ## Methods

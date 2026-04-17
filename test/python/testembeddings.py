@@ -629,7 +629,7 @@ class TestEmbeddings(unittest.TestCase):
         data = [(x, row.split(), None) for x, row in enumerate(self.data)]
 
         # Create embeddings model, backed by word vectors
-        embeddings = Embeddings({"path": "neuml/glove-6B-quantized", "scoring": "bm25", "pca": 3, "quantize": True})
+        embeddings = Embeddings({"path": "tunacosgun/glove-6B-quantized", "scoring": "bm25", "pca": 3, "quantize": True})
 
         # Call scoring and index methods
         embeddings.score(data)
@@ -661,7 +661,7 @@ class TestEmbeddings(unittest.TestCase):
         data = [(x, row.split(), None) for x, row in enumerate(self.data)]
 
         # Create embeddings model, backed by word vectors
-        embeddings = Embeddings({"path": "neuml/glove-6B/model.sqlite", "scoring": "bm25", "pca": 3})
+        embeddings = Embeddings({"path": "tunacosgun/glove-6B/model.sqlite", "scoring": "bm25", "pca": 3})
 
         # Call scoring and index methods
         embeddings.score(data)

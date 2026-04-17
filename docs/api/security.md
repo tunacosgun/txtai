@@ -25,7 +25,7 @@ curl \
   -X POST "http://localhost:8000/workflow" \
   -H "Content-Type: application/json" \
   -H "Authorization: Bearer <token>" \ 
-  -d '{"name":"sumfrench", "elements": ["https://github.com/neuml/txtai"]}'
+  -d '{"name":"sumfrench", "elements": ["https://github.com/tunacosgun/txtai"]}'
 ```
 
 It's important to note that HTTPS **must** be enabled using one of the methods mentioned above. Otherwise, tokens will be exchanged as clear text. 

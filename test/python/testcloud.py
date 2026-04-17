@@ -131,7 +131,7 @@ class TestCloud(unittest.TestCase):
 
         # Run tests with uncompressed and compressed index
         for path in [f"cloud.{provider}", f"cloud.{provider}.tar.gz"]:
-            self.runTests(path, {"provider": provider, "container": "neuml/txtai-intro"})
+            self.runTests(path, {"provider": provider, "container": "tunacosgun/txtai-intro"})
 
     def runTests(self, path, cloud):
         """

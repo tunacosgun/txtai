@@ -27,7 +27,7 @@ class TestWordVectors(unittest.TestCase):
         """
 
         # Test with pretrained glove quantized vectors
-        cls.path = "neuml/glove-6B-quantized"
+        cls.path = "tunacosgun/glove-6B-quantized"
 
     @patch("os.cpu_count")
     def testIndex(self, cpucount):

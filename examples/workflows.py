@@ -680,7 +680,7 @@ class Application:
 
         build = False
         with st.sidebar:
-            st.image("https://github.com/neuml/txtai/raw/master/logo.png", width=256)
+            st.image("https://github.com/tunacosgun/txtai/raw/master/logo.png", width=256)
             st.markdown("# Workflow builder  \n*Build and apply workflows to data*  ")
             st.markdown("---")
 

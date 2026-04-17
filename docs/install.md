@@ -142,7 +142,7 @@ The AudioStream and Microphone pipelines require the [PortAudio](https://python-
 
 Optional dependencies require [C++ Build Tools](https://visualstudio.microsoft.com/visual-cpp-build-tools/)
 
-The [txtai build workflow](https://github.com/neuml/txtai/blob/master/.github/workflows/build.yml) occasionally has work arounds for other known but temporary dependency issues. The [FAQ](../faq) also has a list of common problems, including common installation issues.
+The [txtai build workflow](https://github.com/tunacosgun/txtai/blob/master/.github/workflows/build.yml) occasionally has work arounds for other known but temporary dependency issues. The [FAQ](../faq) also has a list of common problems, including common installation issues.
 
 ## CPU-only
 
@@ -153,14 +153,14 @@ pip install txtai torch==[version]+cpu \
 -f https://download.pytorch.org/whl/torch
 ```
 
-Where `[version]` is the version of PyTorch (such as 2.4.1). The [txtai-cpu](https://hub.docker.com/r/neuml/txtai-cpu) image on Docker Hub uses this method to reduce the image size.
+Where `[version]` is the version of PyTorch (such as 2.4.1). The [txtai-cpu](https://hub.docker.com/r/tunacosgun/txtai-cpu) image on Docker Hub uses this method to reduce the image size.
 
 ## Install from source
 
 txtai can also be installed directly from GitHub to access the latest, unreleased features.
 
 ```
-pip install git+https://github.com/neuml/txtai
+pip install git+https://github.com/tunacosgun/txtai
 ```
 
 Extras can be installed from GitHub by adding `#egg=txtai[<name-of-extra>]` to the end of the above URL.

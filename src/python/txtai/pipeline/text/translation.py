@@ -23,7 +23,7 @@ class Translation(HFModel):
     """
 
     # Default language detection model
-    DEFAULT_LANG_DETECT = "neuml/language-id-quantized"
+    DEFAULT_LANG_DETECT = "tunacosgun/language-id-quantized"
 
     def __init__(self, path=None, quantize=False, gpu=True, batch=64, langdetect=None, findmodels=True):
         """

@@ -54,7 +54,7 @@ class TextToSpeech(Pipeline):
             raise ImportError('TextToSpeech pipeline is not available - install "pipeline" extra to enable')
 
         # Default path
-        path = path if path else "neuml/ljspeech-jets-onnx"
+        path = path if path else "tunacosgun/ljspeech-jets-onnx"
 
         # Target sample rate
         self.rate = rate

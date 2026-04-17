@@ -1,6 +1,6 @@
 # Observability
 
-![agent](https://raw.githubusercontent.com/neuml/mlflow-txtai/master/images/agent.png)
+![agent](https://raw.githubusercontent.com/tunacosgun/mlflow-txtai/master/images/agent.png)
 
 Observability enables tracking the inner workings of a system without having to change the system. This makes it much easier to debug and evaluate overall performance.
 
@@ -41,10 +41,10 @@ from txtai.pipeline import Textractor
 
 with mlflow.start_run():
     textractor = Textractor()
-    textractor("https://github.com/neuml/txtai")
+    textractor("https://github.com/tunacosgun/txtai")
 ```
 
-![textractor](https://raw.githubusercontent.com/neuml/mlflow-txtai/master/images/textractor.png)
+![textractor](https://raw.githubusercontent.com/tunacosgun/mlflow-txtai/master/images/textractor.png)
 
 ### Embeddings
 
@@ -55,7 +55,7 @@ from txtai import Embeddings
 
 with mlflow.start_run():
     wiki = Embeddings()
-    wiki.load(provider="huggingface-hub", container="neuml/txtai-wikipedia-slim")
+    wiki.load(provider="huggingface-hub", container="tunacosgun/txtai-wikipedia-slim")
 
     embeddings = Embeddings(content=True, graph=True)
     embeddings.index(wiki.search("SELECT id, text FROM txtai LIMIT 25"))
@@ -63,8 +63,8 @@ with mlflow.start_run():
     embeddings.search("MATCH (A)-[]->(B) RETURN A")
 ```
 
-![embeddings-load](https://raw.githubusercontent.com/neuml/mlflow-txtai/master/images/embeddings-load.png)
-![embeddings-index](https://raw.githubusercontent.com/neuml/mlflow-txtai/master/images/embeddings-index.png)
+![embeddings-load](https://raw.githubusercontent.com/tunacosgun/mlflow-txtai/master/images/embeddings-load.png)
+![embeddings-index](https://raw.githubusercontent.com/tunacosgun/mlflow-txtai/master/images/embeddings-index.png)
 
 ### Retrieval Augmented Generation (RAG)
 
@@ -75,7 +75,7 @@ from txtai import Embeddings, RAG
 
 with mlflow.start_run():
     wiki = Embeddings()
-    wiki.load(provider="huggingface-hub", container="neuml/txtai-wikipedia-slim")
+    wiki.load(provider="huggingface-hub", container="tunacosgun/txtai-wikipedia-slim")
 
     # Define prompt template
     template = """
@@ -97,7 +97,7 @@ with mlflow.start_run():
     rag("Tell me about the Roman Empire", maxlength=2048)
 ```
 
-![rag](https://raw.githubusercontent.com/neuml/mlflow-txtai/master/images/rag.png)
+![rag](https://raw.githubusercontent.com/tunacosgun/mlflow-txtai/master/images/rag.png)
 
 ### Workflow
 
@@ -110,7 +110,7 @@ from txtai.workflow import Task
 
 with mlflow.start_run():
     wiki = Embeddings()
-    wiki.load(provider="huggingface-hub", container="neuml/txtai-wikipedia-slim")
+    wiki.load(provider="huggingface-hub", container="tunacosgun/txtai-wikipedia-slim")
 
     # Translation instance
     translate = Translation()
@@ -123,7 +123,7 @@ with mlflow.start_run():
     print(list(workflow(["Roman Empire", "Greek Empire", "Industrial Revolution"])))
 ```
 
-![workflow](https://raw.githubusercontent.com/neuml/mlflow-txtai/master/images/workflow.png)
+![workflow](https://raw.githubusercontent.com/tunacosgun/mlflow-txtai/master/images/workflow.png)
 
 ### Agent
 
@@ -151,7 +151,7 @@ def search(query):
     )
 
 embeddings = Embeddings()
-embeddings.load(provider="huggingface-hub", container="neuml/txtai-astronomy")
+embeddings.load(provider="huggingface-hub", container="tunacosgun/txtai-astronomy")
 
 agent = Agent(
     tools=[search],
@@ -175,8 +175,8 @@ with mlflow.start_run():
     """), maxlength=16000)
 ```
 
-![agent](https://raw.githubusercontent.com/neuml/mlflow-txtai/master/images/agent.png)
+![agent](https://raw.githubusercontent.com/tunacosgun/mlflow-txtai/master/images/agent.png)
 
 ## Read more
 
-Check out the [mlflow-txtai](https://github.com/neuml/mlflow-txtai) project to see more examples.
+Check out the [mlflow-txtai](https://github.com/tunacosgun/mlflow-txtai) project to see more examples.

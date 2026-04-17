@@ -226,7 +226,7 @@ class TestTextractor(unittest.TestCase):
         # Test parsing URLs for each backend
         for backend in ["docling", "tika"]:
             textractor = Textractor(backend=backend)
-            text = textractor("https://github.com/neuml/txtai")
+            text = textractor("https://github.com/tunacosgun/txtai")
             self.assertTrue("txtai is an all-in-one AI framework" in text)
 
     def assertMarkdown(self, html, expected):

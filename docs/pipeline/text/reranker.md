@@ -15,7 +15,7 @@ from txtai.pipeline import Reranker, Similarity
 
 # Embeddings instance
 embeddings = Embeddings()
-embeddings.load(provider="huggingface-hub", container="neuml/txtai-wikipedia")
+embeddings.load(provider="huggingface-hub", container="tunacosgun/txtai-wikipedia")
 
 # Similarity instance
 similarity = Similarity(path="colbert-ir/colbertv2.0", lateencode=True)
@@ -31,7 +31,7 @@ See the link below for a more detailed example.
 
 | Notebook  | Description  |       |
 |:----------|:-------------|------:|
-| [What's new in txtai 9.0](https://github.com/neuml/txtai/blob/master/examples/76_Whats_new_in_txtai_9_0.ipynb) | Learned sparse vectors, late interaction models and rerankers | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/neuml/txtai/blob/master/examples/76_Whats_new_in_txtai_9_0.ipynb) |
+| [What's new in txtai 9.0](https://github.com/tunacosgun/txtai/blob/master/examples/76_Whats_new_in_txtai_9_0.ipynb) | Learned sparse vectors, late interaction models and rerankers | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tunacosgun/txtai/blob/master/examples/76_Whats_new_in_txtai_9_0.ipynb) |
 
 ## Configuration-driven example
 

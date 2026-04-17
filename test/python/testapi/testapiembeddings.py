@@ -107,7 +107,7 @@ embeddings:
 
 # Similarity and Reranking settings
 similarity:
-    path: neuml/colbert-bert-tiny
+    path: tunacosgun/colbert-bert-tiny
     lateencode: True
 
 reranker:
